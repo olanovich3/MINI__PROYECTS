@@ -1,0 +1,40 @@
+.video{
+
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.video > div{
+
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.video > div > h2{
+
+    font-size: 80px;
+    letter-spacing: 2.8px;
+}
+
+.video > div > button{
+
+    font-size: 25px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    background: none;
+    background-color: transparent;
+    color: var(--primary);
+    border-color: 2px solid var(--primary);
+}
+
+.video > div > button::before{
+
+    content: "😎";
+    filter: brightness(700%);
+
+}

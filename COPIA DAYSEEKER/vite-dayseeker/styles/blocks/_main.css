@@ -1,0 +1,77 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main > h2{
+
+    font-size: 43px;
+    margin-top:80px;
+}
+
+.gallery{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 50px 50px 50px 50px ;
+
+}
+
+.gallery > figure{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.gallery > figure > h3{
+
+    font-size: 14px;
+}
+
+.gallery > figure > h4{
+
+    font-size: 13.6px;
+    color: var(--price);
+}
+
+main > button{
+
+    width: 135px;
+    height: 42px;
+    letter-spacing: 3.9px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,rgba(0,0,0,1) 0%,rgba(194,194,194,1) 72%,rgba(47,47,47,1) 100%);
+    animation: rotate-center 1.5s ease-in-out infinite both;
+    margin-bottom: 100px;
+
+}
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  

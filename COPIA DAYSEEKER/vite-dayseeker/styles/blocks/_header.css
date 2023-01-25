@@ -1,0 +1,93 @@
+
+header > nav {
+
+    max-height: 180px;
+    color: var(--primary);
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 80px;
+
+
+
+}
+header > nav > img{
+
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+    transform: rotatey(180deg);
+    margin-right: 50px; 
+
+    
+}
+
+header > nav > ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 13px;
+    letter-spacing: 2.6px;
+}
+
+.wrap{
+
+    flex-wrap: wrap;
+}
+
+header > nav > ul > li > img{
+
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+}
+
+header > nav > h1{
+
+    font-size: 30px;
+
+}
+header > .cartel{
+    height: 700px;
+    overflow: hidden;
+}
+
+header > .cartel > img{
+
+height: 100%;
+width: 100%;
+background-size: contain;
+animation: zoombanner 5s;
+
+}
+
+@keyframes zoombanner {
+0% {
+    transform: scale(1.5);
+    opacity: 0;
+
+}
+100%{
+
+    transform: scale(1);
+}
+    
+}
+
+@media (max-width:782px) {
+    .wrap{
+
+        display: none;
+    }
+
+    .cartel{
+
+        width: 740px;
+        height: 250px;
+        
+    }
+   
+}

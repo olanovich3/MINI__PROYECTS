@@ -1,0 +1,53 @@
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 366px;
+    background-image: url("https://res.cloudinary.com/dfnh5hecu/image/upload/v1674466529/Dayseeker/background_k36qdk.webp");
+    padding: 5rem;
+}
+
+
+.search{
+
+    width: 286px;
+    margin-right: 150px;
+}
+
+.mail{
+
+
+    gap: 48px;
+    width: 454px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    
+}
+
+
+.socialmedia > li{
+
+    display: inline-block;
+    filter: invert(100%);
+    margin-right: 10px;
+
+}
+
+.socialmedia > li > img{
+
+    width: 20px;
+    height: 20px;
+}
+
+
+.email > input{
+    background-color: transparent;
+    border: none;
+}
+
+ .email > input::placeholder{
+
+    color: var(--primary);
+ }
