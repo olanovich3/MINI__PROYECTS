@@ -1,0 +1,36 @@
+
+
+.players{
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 4rem;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.players > figure{
+    background-color: var(--links);
+    border: 2px solid var(--highlight);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin: 1rem;
+    gap: 16px;
+    padding-bottom: 1rem;
+
+}
+
+.players > figure:hover{
+
+    background-color: var(--background);
+}
+
+.players > figure > h2{
+
+  font-size: 140px;
+}

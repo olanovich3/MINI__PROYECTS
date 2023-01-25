@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial,  sans-serif;
+    list-style-type: none;
+}
+
+:root {
+    --background: #fdf4e1 ;
+    --primary: #37bc76;
+    --links: #1c674a;
+    --paragraph: #abd1c6;
+    --button: #f9bc60;
+    --tertiary: #e16162;
+    --highlight: #f9bc60;
+    --seconday:#abd1c6;
+
+}
+body{
+    background-color: var(--background);
+}

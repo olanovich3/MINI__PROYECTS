@@ -1,0 +1,23 @@
+.espartanos > div{
+
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espartanos > div > h2{
+
+    position: absolute;
+    color:var(--background);
+    font-size: 75px;
+    margin-top: 195px;
+}
+
+.espartanos > div > img{
+
+ width: 100%;
+ height: 100%;
+ object-fit:cover;
+}
+
