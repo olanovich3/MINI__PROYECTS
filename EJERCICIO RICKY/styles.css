@@ -1,0 +1,53 @@
+body{
+
+    background-color: aqua;
+    background-image:url("https://www.pngitem.com/pimgs/m/85-852066_rick-and-morty-png-transparent-png.png") ;
+    background-attachment: fixed;
+    background-size: 100%   ;
+   
+}
+
+h2{
+
+    font-style: #28818B;
+    font-weight: bold;
+    color: #28818B;
+   text-shadow: 20px 15px 7px black;
+   animation-duration: 2s;
+   animation-name: name;
+  
+}
+
+@keyframes name{
+
+    from {
+
+        margin-left: 100%;
+        width: 30%;
+    }
+
+    to {
+
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.frame{
+
+    border: 50px solid rgb(183, 249, 171);
+    width: 500px;
+    }
+
+.card {
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+}
+
+.text{
+
+    font-style: italic;
+    color: #28818B;
+}
+
